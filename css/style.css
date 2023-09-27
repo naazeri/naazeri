@@ -23,6 +23,8 @@
 *
 * ======================================================= */
 body {
+  margin: 0px;
+  padding: 0px;
   font-family: 'Vazirmatn', 'Space Mono', Arial, serif;
   font-weight: 400;
   font-size: 16px;
@@ -33,6 +35,11 @@ body {
 
 .socials {
   margin-top: 60px;
+  text-decoration: none;
+}
+
+.content-center {
+  text-align: center;
 }
 
 #page {
@@ -395,6 +402,7 @@ figure {
   zoom: 1;
   display: inline;
   color: #ff9000;
+  text-decoration: none;
   padding-left: 10px;
   padding-right: 10px;
 }
