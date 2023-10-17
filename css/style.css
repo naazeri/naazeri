@@ -1,20 +1,7 @@
 @font-face {
-  font-family: 'icomoon';
-  src: url('../fonts/icomoon/icomoon.eot?srf3rx');
-  src: url('../fonts/icomoon/icomoon.eot?srf3rx#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon/icomoon.ttf?srf3rx') format('truetype'),
-    url('../fonts/icomoon/icomoon.woff?srf3rx') format('woff'),
-    url('../fonts/icomoon/icomoon.svg?srf3rx#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'Vazirmatn';
   src: url('../fonts/vazirmatn/Vazirmatn-Regular.woff2') format('woff2'),
-    /* Modern Browsers */
     url('../fonts/vazirmatn/Vazirmatn-Regular.ttf') format('truetype');
-  /* Safari, Android, iOS */
 }
 
 /* =======================================================
@@ -1519,6 +1506,10 @@ input[type='text'] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.bi:hover {
+  color: #212121;
 }
 
 /*# sourceMappingURL=style.css.map */
