@@ -17,9 +17,15 @@ body {
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-items: center; */
+  justify-content: center;
+  gap: 45px 0;
   width: 100vw;
   height: 100vh;
-  text-align: center;
+  /* text-align: center; */
   background: #ff9100e3;
 }
 
@@ -30,7 +36,7 @@ body {
   box-shadow: 0px 0px 40px 1px #000000aa;
   border-radius: 50%;
   object-fit: cover;
-  margin-top: 160px;
+  /* margin-top: 160px; */
 }
 
 .name {
@@ -39,11 +45,11 @@ body {
   font-size: 50px;
   font-weight: 300;
   transform: rotate(-5deg);
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .socials {
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 
 .social-icon {
@@ -78,5 +84,12 @@ body {
 
   .name {
     font-size: 40px;
+  }
+}
+
+@media (max-width: 340px) {
+  .social-icon {
+    font-size: 22px;
+    margin: 0 5px;
   }
 }
