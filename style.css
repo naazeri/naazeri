@@ -62,21 +62,21 @@ body {
   color: #212121;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .social-icon {
     font-size: 30px;
     margin: 0 10px;
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .social-icon {
     font-size: 26px;
     margin: 0 8px;
   }
 }
 
-@media (max-width: 370px) {
+@media screen and (max-width: 370px) {
   .social-icon {
     font-size: 25px;
     margin: 0 7px;
@@ -87,7 +87,7 @@ body {
   }
 }
 
-@media (max-width: 340px) {
+@media screen and (max-width: 340px) {
   .social-icon {
     font-size: 22px;
     margin: 0 5px;
