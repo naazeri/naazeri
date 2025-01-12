@@ -1,15 +1,15 @@
 import {
-  BsFileEarmarkRichtextFill,
   BsYoutube,
   BsLinkedin,
   BsGithub,
   BsInstagram,
   BsEnvelopeAtFill,
 } from 'react-icons/bs';
-import Container from './components/Container';
-import Icon from './components/Link';
-import ProfileImage from './components/ProfileImage';
-import SocialIcons from './components/SocialIcons';
+import Container from '../components/Container';
+import Icon from '../components/Icon';
+import ProfileImage from '../components/ProfileImage';
+import SocialIcons from '../components/SocialIcons';
+import BlogIcon from '../assets/icons/BlogIcon';
 
 function Home() {
   return (
@@ -22,14 +22,13 @@ function Home() {
         - Reza Nazeri -
       </h1>
       <SocialIcons>
+        <Icon link="https://virgool.io/@naazeri">
+          <BlogIcon />
+        </Icon>
+        <Icon IconComponent={BsGithub} link="https://github.com/naazeri/" />
         <Icon
           IconComponent={BsLinkedin}
           link="https://linkedin.com/in/rezanazeri/"
-        />
-        <Icon IconComponent={BsGithub} link="https://github.com/naazeri/" />
-        <Icon
-          IconComponent={BsFileEarmarkRichtextFill}
-          link="https://virgool.io/@naazeri"
         />
         <Icon IconComponent={BsYoutube} link="https://youtube.com/@naazeri" />
         <Icon
