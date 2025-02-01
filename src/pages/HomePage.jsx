@@ -1,8 +1,16 @@
+import { useEffect } from 'react';
 import Container from '../components/Container';
 import ProfileImage from '../components/ProfileImage';
 import SocialIcons from '../components/SocialIcons';
+import useAppStore from '../store/useAppStore';
 
-function Home() {
+function HomePage() {
+  const { setLang } = useAppStore();
+
+  useEffect(() => {
+    setLang('en');
+  }, [setLang]);
+
   return (
     <Container>
       <ProfileImage
@@ -15,4 +23,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomePage;
